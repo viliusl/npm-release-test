@@ -1,0 +1,26 @@
+{
+  "name": "npm-release-test",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+    "release": "wnpm-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viliusl/npm-release-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/viliusl/npm-release-test/issues"
+  },
+  "homepage": "https://github.com/viliusl/npm-release-test#readme",
+  "devDependencies": {
+    "chai": "~3.5.0",
+    "mocha": "~3.2.0",
+    "mocha-env-reporter": "~2.0.4",
+    "wnpm-ci": "~6.2.44"
+  }
+}
